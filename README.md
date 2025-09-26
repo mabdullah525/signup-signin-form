@@ -72,9 +72,3 @@ export const app = initializeApp(firebaseConfig);
 
 Run this Project
 npm run dev
-
-
-   
-- **Firebase Realtime Database**
-
----
