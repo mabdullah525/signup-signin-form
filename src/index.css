@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+
+   body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(135deg, #4f46e5, #3b82f6);
+    }
+    .container {
+      background: #fff;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      width: 350px;
+      text-align: center;
+      animation: fadeIn 1s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(-20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+    .container h2 {
+      margin-bottom: 20px;
+      color: #333;
+      font-size: 24px;
+      font-weight: 700;
+    }
+    .container input {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+    .container button {
+      width: 100%;
+      padding: 12px;
+      margin-top: 12px;
+      background: #4f46e5;
+      border: none;
+      color: #fff;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .container button:hover {
+      background: #3730a3;
+    }
+    .login-option {
+      margin-top: 15px;
+      font-size: 14px;
+      color: #555;
+    }
+    .login-option a {
+      color: #4f46e5;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .login-option a:hover {
+      text-decoration: underline;
+    }
